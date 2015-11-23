@@ -62,6 +62,7 @@ config = {}
 for name,options of swagger.definitions
   json = clone model
   json = merge json, options 
+  json.name = name
   console.log "writing "+modeldir+"/"+name+".json"
   fs.writeFileSync modeldir+"/"+name+".json", JSON.stringify( json, null, 2)
   # write config
