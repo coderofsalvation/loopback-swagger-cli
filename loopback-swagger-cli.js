@@ -112,6 +112,8 @@
     config[name] = modelcfg;
   }
 
+  console.log("writing " + modelconfigfile);
+
   fs.writeFileSync(modelconfigfile, JSON.stringify(config, null, 2));
 
 }).call(this);

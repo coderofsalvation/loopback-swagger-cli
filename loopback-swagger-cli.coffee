@@ -70,5 +70,6 @@ for name,options of swagger.definitions
   modelcfg.public = options.public if options.public?
   config[ name ] = modelcfg
 
+console.log "writing "+modelconfigfile
 fs.writeFileSync modelconfigfile, JSON.stringify( config,null,2)
   
