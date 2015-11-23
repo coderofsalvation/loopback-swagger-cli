@@ -100,6 +100,7 @@
     options = ref[name];
     json = clone(model);
     json = merge(json, options);
+    json.name = name;
     console.log("writing " + modeldir + "/" + name + ".json");
     fs.writeFileSync(modeldir + "/" + name + ".json", JSON.stringify(json, null, 2));
     modelcfg = clone(modelconfig);

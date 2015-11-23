@@ -1,6 +1,6 @@
 {
   "name": "loopback-swagger-cli",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "extend your swagger json with loopback syntax, one jsonfile to rule them all",
   "main": "index.js",
   "bin": {"loopback-swagger-cli": "loopback-swagger-cli.js"},

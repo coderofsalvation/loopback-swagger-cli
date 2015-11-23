@@ -35,9 +35,10 @@ then extend your swagger file with strongloop syntax like so:
 and then
   
     $ slc loopback:swagger swagger.json # only needed once (see note)
-    $ loopback-swagger-cli swagger.json server/models
+    $ loopback-swagger-cli swagger.json server/models server/model-config.json
     writing /server/models/owner.json
     writing /server/models/pet.json 
+    writing /server/model-config.json
 
 > NOTE: this cli-tool will leave the .js files alone, however use the loopback:swagger cmd
 to generate them otherwise loopback will complain.
