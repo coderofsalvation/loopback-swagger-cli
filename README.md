@@ -42,3 +42,10 @@ and then
 
 > NOTE: this cli-tool will leave the .js files alone, however use the loopback:swagger cmd
 to generate them otherwise loopback will complain.
+
+# Example repo
+
+here's an example of a loopback api served from one coffeescript-jsonfile:
+
+[https://github.com/coderofsalvation/loopback-swagger-cli-example](https://github.com/coderofsalvation/loopback-swagger-cli-example)
+
