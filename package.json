@@ -1,0 +1,26 @@
+{
+  "name": "loopback-swagger-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {"loopback-swagger-cli": "loopback-swagger-cli.js"},
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://coderofsalvation@github.com/coderofsalvation/loopback-swagger-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderofsalvation/loopback-swagger-cli/issues"
+  },
+  "homepage": "https://github.com/coderofsalvation/loopback-swagger-cli#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
