@@ -1,0 +1,5 @@
+#!/bin/bash
+cd "$(dirname "$(readlink -f "$0")" )"
+coffee -c loopback-swagger-cli.coffee
+echo -e "#!/usr/bin/env node\n$(<loopback-swagger-cli.js)" > loopback-swagger-cli.js
+chmod 755 loopback-swagger-cli.js
