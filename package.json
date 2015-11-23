@@ -1,6 +1,6 @@
 {
   "name": "loopback-swagger-cli",
-  "version": "1.0.1",
+  "version": "1.0.22",
   "description": "model your loopback api using one swaggerfile (extended with loopback syntax, converts to models) ",
   "main": "index.js",
   "bin": {"loopback-swagger-cli": "loopback-swagger-cli.js"},
